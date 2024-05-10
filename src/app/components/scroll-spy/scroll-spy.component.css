@@ -1,0 +1,22 @@
+/* scroll-spy.component.css */
+
+.navbar-nav {
+    flex-direction: row;
+  }
+  
+  #camisetas, #pantalones, #accesorios {
+    height: 300px; /* Altura suficiente para hacer scroll */
+    overflow-y: auto; /* Permite el scroll vertical en cada sección */
+
+  }
+  
+  section {
+    padding: 20px;
+    border: 1px solid #ccc; /* Estilos para visualizar los límites de cada sección */
+    margin-bottom: 20px;
+  }
+button{
+  margin-left: 10px;
+  border: 1px solid #e28a8a; /* Estilos para visualizar los límites de cada sección */
+
+}
