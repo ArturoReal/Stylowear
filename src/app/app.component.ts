@@ -1,14 +1,14 @@
-import { Component, HostListener, NgModule } from '@angular/core';
+import { Component} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
-import { ScrollSpyComponent } from './components/scroll-spy/scroll-spy.component';
-import { CartaProductoComponent } from './components/carta-producto/carta-producto.component';
-
+import { HomeComponent } from './components/home/home.component';
+import { ProductsComponent } from './components/products/products.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root', 
   standalone: true,
-  imports: [RouterOutlet,HeaderComponent,ScrollSpyComponent,CartaProductoComponent],
+  imports: [RouterOutlet,HeaderComponent,HomeComponent,ProductsComponent,FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
